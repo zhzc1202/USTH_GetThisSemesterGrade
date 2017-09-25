@@ -9,8 +9,8 @@ class USTH:
         # login
         self.loginURL = 'http://60.219.165.24/loginAction.do'
         # grades URL
-        '''self.gradesURL = 'http://60.219.165.24/gradeLnAllAction.do?type=ln&oper=qbinfo'''  '''所有学期成绩'''
-        self.gradesURL = 'http://60.219.165.24/bxqcjcxAction.do?type=ln&oper=qbinfo'    '''本学期成绩'''
+        '''self.gradesURL = 'http://60.219.165.24/gradeLnAllAction.do?type=ln&oper=qbinfo'''  '''AllSemesterGrade'''
+        self.gradesURL = 'http://60.219.165.24/bxqcjcxAction.do?type=ln&oper=qbinfo'    '''ThisSemesterGrade'''
         # cookies and postData
         self.cookies = http.cookiejar.CookieJar()
         zjh = input()
